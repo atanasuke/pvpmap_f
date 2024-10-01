@@ -1,0 +1,9 @@
+execute as @a[hasitem={item=pvpmap:giants_sword,location=slot.weapon.mainhand},tag=t:sneaking,scores={special=60..}] at @s run tag @s add fallgiant
+execute as @a[tag=fallgiant,hasitem={item=pvpmap:giants_sword,location=slot.weapon.mainhand},tag=t:sneaking,scores={special=60..}] at @s run scoreboard players remove @s special 60
+execute as @a[tag=fallgiant,hasitem={item=pvpmap:giants_sword,location=slot.weapon.mainhand},tag=t:sneaking] at @s run summon pvpmap:giant_sword ^^^10 
+tp @e[type=pvpmap:giant_sword,c=1] ~~10~
+execute as @e[type=pvpmap:giant_sword] at @s run damage @e[x=~-3,y=~-2,z=~-3,dx=5,dy=10,dz=5] 1 self_destruct 
+
+
+
+ 
