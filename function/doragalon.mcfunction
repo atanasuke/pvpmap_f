@@ -28,9 +28,9 @@ execute as @e[type=boat,tag=doragun] at @s unless entity @e[x=~-0.5,z=~-0.5,y=~-
 execute as @e[type=boat,tag=doragun] at @s unless entity @e[x=~-0.5,z=~-0.5,y=~-999.5,dx=0] run particle minecraft:spinendrod ~~-999~
 execute as @e[type=boat,tag=doragun] at @s unless entity @e[x=~-0.5,z=~-0.5,y=~-999.5,dx=0] run tp @s ^^^1
 execute as @e[type=boat,tag=doragun] at @s unless block ~~-999~ air run kill @s
-execute as @e[type=boat,tag=doragun] at @s positioned ~-0.5~-999.5~-0.5 if entity @e[dx=0] positioned ~~-1.5~ if entity @e[dx=0] run playsound bow.hit @a ~~~ 100 1 1
-execute as @e[type=boat,tag=doragun] at @s positioned ~-0.5~-999.5~-0.5 if entity @e[dx=0] positioned ~~-1.5~ if entity @e[dx=0] run damage @e[dx=0] 40 entity_attack entity @s
-execute as @e[type=boat,tag=doragun] at @s positioned ~-0.5~-999.5~-0.5 if entity @e[dx=0] positioned ~~-1.5~ if entity @e[dx=0] run scoreboard players remove @e[dx=0] blood 150
+execute as @e[type=boat,tag=doragun] at @s positioned ~-0.5~-999.5~-0.5 if entity @e[dx=0] positioned ~~-1.55~ if entity @e[dx=0] run playsound bow.hit @a ~~~ 100 1 1
+execute as @e[type=boat,tag=doragun] at @s positioned ~-0.5~-999.5~-0.5 if entity @e[dx=0] positioned ~~-1.55~ if entity @e[dx=0] run damage @e[dx=0] 40 entity_attack entity @s
+execute as @e[type=boat,tag=doragun] at @s positioned ~-0.5~-999.5~-0.5 if entity @e[dx=0] positioned ~~-1.55~ if entity @e[dx=0] run scoreboard players remove @e[dx=0] blood 150
 execute as @e[type=boat,tag=doragun] at @s run damage @e[x=~-0.5,z=~-0.5,y=~-999.5,dx=0] 10 entity_attack entity @s
 execute as @e[type=boat,tag=doragun] at @s run scoreboard players remove @e[x=~-0.5,z=~-0.5,y=~-999.5,dx=0] blood 30
 execute as @e[type=boat,tag=doragun,scores={doragun_life=..0}] at @s run kill @s
