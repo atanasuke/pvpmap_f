@@ -13,7 +13,7 @@ execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag
 execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run tag @e[type=boat,r=4] add doragun
 execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run scoreboard players set @e[type=boat,r=4,tag=doragun] doragun_life 15
 execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run execute as @e[type=boat,r=4,tag=doragun] at @s run tp @s ~~1001.2~
-execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run playsound snipe @a[r=15] ~~~ 0.4 0.6 0
+execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run playsound snipe @a[r=90] ~~~ 0.4 0.6 0
 execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run scoreboard players remove  @s doraammo 1
 execute as @a[hasitem={item=spyglass,data=777,location=slot.weapon.mainhand},tag=t:sneaking,tag=shifton,scores={doraammo=1..,dora_ct=0}] at @s run scoreboard players set @s dora_ct 50
 execute as @a[hasitem=[item=spyglass,data=777,location=slot.weapon.mainhand],tag=t:sneaking,tag=!shifton] at @s run tag @s add shifton
