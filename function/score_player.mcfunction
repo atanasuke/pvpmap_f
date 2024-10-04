@@ -1,0 +1,17 @@
+scoreboard players set @a doraammo 0
+scoreboard players set @a dora_ct 0
+scoreboard players set @a doracharge 0
+scoreboard players set @a dorareload 0
+scoreboard players set @a indoraammo 0
+scoreboard players set @a praammo 0
+scoreboard players set @a pra_ct 0
+scoreboard players set @a pracharge 0
+scoreboard players set @a prareload 0
+scoreboard players set @a inpraammo 0
+scoreboard players set @a muteki 0
+scoreboard players set @a bleeding 0
+scoreboard players set @a bloodtier 0
+scoreboard players set @a bloodsecond 0
+scoreboard players set @a bloodtime 0
+scoreboard players set @a bloodtierkari 0
+scoreboard players set @a math1 0
