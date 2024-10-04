@@ -27,5 +27,5 @@ scoreboard players set @a[scores={bloodtier=5,bloodtime=2}] bloodtime 0
 scoreboard players remove @a[scores={bloodtier=6..,bloodtime=1}] blood 1
 effect @a[scores={bloodtier=6}] bad_omen 1 5 true
 scoreboard players set @a[scores={bloodtier=6..,bloodtime=1}] bloodtime 0
-effect @a[scores=[bloodsecond=0]] bad_omen 0 6 true
+effect @a[scores={bloodsecond=0}] bad_omen 0 6 true
 scoreboard players set @a[scores={bloodsecond=0}] bloodtier 0
