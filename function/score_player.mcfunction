@@ -15,3 +15,7 @@ scoreboard players set @a bloodsecond 0
 scoreboard players set @a bloodtime 0
 scoreboard players set @a bloodtierkari 0
 scoreboard players set @a math1 0
+scoreboard players set @a thunder_crash_recharge 0
+scoreboard players set @a elect 0
+scoreboard players set @a select_ct 0
+scoreboard players set @a thunder_p_ct 0

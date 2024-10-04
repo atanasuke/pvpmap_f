@@ -1,0 +1,2 @@
+execute as @a[tag=t:attack,hasitem={item=pvpmap:thunder_sword,location=slot.weapon.mainhand},scores={elect=1000..}] at @s run scoreboard players add @p[tag=t:damaged] ieshock 5
+execute as @a[tag=t:attack,hasitem={item=pvpmap:thunder_sword,location=slot.weapon.mainhand},scores={elect=1000..}] at @s run scoreboard players remove @s elect 1000

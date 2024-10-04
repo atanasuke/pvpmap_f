@@ -17,3 +17,10 @@ scoreboard objectives add bloodtier dummy
 scoreboard objectives add bloodsecond dummy
 scoreboard objectives add bloodtime dummy
 scoreboard objectives add bloodtierkari dummy
+scoreboard objectives add eshock dummy
+scoreboard objectives add ieshock dummy
+scoreboard objectives add thunder_crash_recharge dummy
+scoreboard objectives add thunder_time dummy
+scoreboard objectives add elect dummy
+scoreboard objectives add select_ct dummy
+scoreboard objectives add thunder_p_ct dummy
