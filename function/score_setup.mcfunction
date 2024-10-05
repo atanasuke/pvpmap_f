@@ -24,3 +24,5 @@ scoreboard objectives add thunder_time dummy
 scoreboard objectives add elect dummy
 scoreboard objectives add select_ct dummy
 scoreboard objectives add thunder_p_ct dummy
+scoreboard objectives add last_bolt dummy
+scoreboard objectives add frash dummy

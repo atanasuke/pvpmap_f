@@ -19,3 +19,6 @@ scoreboard players set @a thunder_crash_recharge 0
 scoreboard players set @a elect 0
 scoreboard players set @a select_ct 0
 scoreboard players set @a thunder_p_ct 0
+scoreboard players set "dummy1000" math 1000
+scoreboard players set @a last_bolt 0
+scoreboard players set @a frash 0
