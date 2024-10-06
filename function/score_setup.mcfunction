@@ -26,3 +26,6 @@ scoreboard objectives add select_ct dummy
 scoreboard objectives add thunder_p_ct dummy
 scoreboard objectives add last_bolt dummy
 scoreboard objectives add frash dummy
+scoreboard objectives add rand dummy
+scoreboard objectives add grenade_recharge dummy
+scoreboard objectives add f_grenade_recharge dummy

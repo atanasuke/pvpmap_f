@@ -22,3 +22,8 @@ scoreboard players set @a thunder_p_ct 0
 scoreboard players set "dummy1000" math 1000
 scoreboard players set @a last_bolt 0
 scoreboard players set @a frash 0
+scoreboard players set @a rand 0
+scoreboard players set @a eshock 0
+scoreboard players set @a ieshock 0
+scoreboard players set @a grenade_recharge 0
+scoreboard players set @a f_grenade_recharge 0
